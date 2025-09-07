@@ -22,8 +22,7 @@ This repository is organized to clearly document the project's development pipel
 |-- README.md                   (This file)
 
 #How to Run the Project
-Clone the Repository:
-git clone https://github.com/your-username/Myco-Net.git
+Clone the Repository
 
 Open in Jupyter:
 Launch Jupyter Notebook or JupyterLab and open the myco_net_analysis.ipynb file.
