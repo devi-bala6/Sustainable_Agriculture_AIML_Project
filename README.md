@@ -2,41 +2,31 @@
 
 # Myco-Net: The AI Fungal Network Interpreter
 
-## Project Description
+Myco-Net: The AI Fungal Network Interpreter
+Myco-Net is a groundbreaking AI solution designed to shift sustainable agriculture from a reactive to a proactive process. By interpreting the subtle signals from the "wood wide web"—the natural communication network of fungi in the soil—our system provides real-time diagnostics and early warnings of plant stress, empowering small-scale farmers to take action before crop damage becomes visible.
 
-In an era of climate change and resource scarcity, small-scale farmers in India face significant challenges. Traditional farming methods are reactive, often leading to substantial crop loss due to water stress, nutrient deficiencies, and pests. Our project, **Myco-Net**, introduces a groundbreaking solution by using AI to interpret the "wood wide web" — the natural communication network of fungi in the soil.
+# Key Innovations
+AI-Driven Signal Interpretation: A sophisticated machine learning model interprets complex biological and environmental data, identifying hidden patterns that indicate plant stress.
 
-This system is designed to provide **pre-emptive, real-time diagnostics**, enabling farmers to take action *before* crop damage becomes visible.
+Proactive Diagnostics: Unlike traditional methods that react to visible symptoms, Myco-Net provides a precise, pre-emptive diagnosis of issues like water stress, nutrient deficiencies, or soil-borne pathogens. 🌾
 
----
+Two-Tiered Validation: Our project strategy is built on a two-phase analysis that validates our AI engine with both a foundational dataset and a specialized dataset containing crucial fungal metrics.
 
-## Innovative Features
+# Project Structure
+This repository is organized to clearly document the project's development pipeline:
 
-* **AI-Driven Signal Interpretation:** A machine learning model, trained on our custom dataset, interprets the subtle electrical and chemical signals from a plant's symbiotic fungal network.
-* **Predictive Diagnostics:** The AI provides a precise diagnosis of plant health, identifying issues like water stress or pest attacks before they escalate.
-* **Low-Cost & Scalable:** The project is designed to be affordable for a 1-acre farm, using a simple biosensor and a smartphone as the primary interface.
-
----
-
-## Datasets Used
-
-We have leveraged a combination of publicly available and simulated datasets to build and validate our AI model:
-
-* **Kaggle "Plant Health Data" Dataset:** Our primary source for a clean, labeled dataset containing `Electrochemical_Signal` and `Plant_Health_Status` for AI training.
-* **Simulated & Self-Collected Data:** Our raw sensor readings from various plant vases used for initial testing and proof-of-concept.
-* **Research Papers (PDFs):** These documents serve as the scientific blueprint, providing a theoretical foundation for the electrical signals we are analyzing.
-
----
-
-## Project Structure
-
-This repository is organized to clearly document the project's development.
 /Myco-Net/
-|-- data/
-|   |-- raw/
-|   |-- preprocessed/
-|-- src/
-|   |-- ai_model.py
-|   |-- data_preprocessing.py
-|-- documents/
-|-- README.md
+|-- myco_net_analysis.ipynb   (The main Jupyter notebook with all code and analysis)
+|-- plant_health_data.csv       (Dataset for the foundational analysis)
+|-- Tree_Data.csv             (Dataset for the core Myco-Net analysis)
+|-- README.md                   (This file)
+
+#How to Run the Project
+Clone the Repository:
+git clone https://github.com/your-username/Myco-Net.git
+
+Open in Jupyter:
+Launch Jupyter Notebook or JupyterLab and open the myco_net_analysis.ipynb file.
+
+Run the Notebook:
+Run all the cells in the notebook from top to bottom. The notebook will automatically load the data, train the models, and generate all visualizations and reports.
