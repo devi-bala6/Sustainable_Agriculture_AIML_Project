@@ -1,15 +1,15 @@
-🌿Myco-Net: The AI Fungal Network Interpreter 
+#🌿Myco-Net: The AI Fungal Network Interpreter 
 
 Myco-Net is a groundbreaking AI solution designed to shift sustainable agriculture from a reactive to a proactive process. By interpreting the subtle signals from the "wood wide web"—the natural communication network of fungi in the soil—our system provides real-time diagnostics and early warnings of plant stress, empowering small-scale farmers to take action before crop damage becomes visible.
 
-Key Innovations
+ #Key Innovations
 AI-Driven Signal Interpretation: A sophisticated machine learning model interprets complex biological and environmental data, identifying hidden patterns that indicate plant stress.
 
 Proactive Diagnostics: Unlike traditional methods that react to visible symptoms, Myco-Net provides a precise, pre-emptive diagnosis of issues like water stress, nutrient deficiencies, or soil-borne pathogens 🌾.
 
 Two-Tiered Validation: Our project strategy is built on a two-phase analysis that validates our AI engine with both a foundational dataset and a specialized dataset containing crucial fungal metrics.
 
-Project Structure
+ #Project Structure
 This repository is organized to clearly document the project's development pipeline:
 
 /
@@ -26,7 +26,8 @@ This repository is organized to clearly document the project's development pipel
 │   ├── light_encoder.pkl (Label encoder for light conditions)
 │   └── microbe_encoder.pkl (Label encoder for microbial communities)
 └── README.md (This file)
-How to Run the Project
+
+ #How to Run the Project
 To get started with Myco-Net, follow these simple steps:
 
 Clone the Repository: Use the following command to clone the project to your local machine:
@@ -53,8 +54,8 @@ Bash
 streamlit run src/app.py
 This will open the application in your web browser, where you can interact with the models.
 
-About
+#About
 Myco-Net: The AI Fungal Network Interpreter
 
-License
+#License
 This project is open-source and available under the MIT License.
