@@ -1,65 +1,83 @@
-Sustainable_Agriculture_AIML_Project
+#Sustainable_Agriculture_AIML_Project
+
 
 🌿 Myco-Net: The AI Fungal Network Interpreter
-Myco-Net is a groundbreaking AI solution designed to transform sustainable agriculture from a reactive to a proactive process. By interpreting subtle signals from the “wood wide web”—the natural communication network of fungi in the soil—our system delivers real-time diagnostics and early warnings of plant stress, enabling farmers to take action before crop damage becomes visible.
+Myco-Net is a groundbreaking AI solution for sustainable agriculture that shifts crop management from a reactive to a proactive process.
+By decoding subtle signals from the wood wide web—the underground fungal communication network—our system provides real-time diagnostics and early stress warnings, enabling small-scale farmers to take action before damage becomes visible.
 
-🚀 Key Innovations
+✨ Key Innovations
 AI-Driven Signal Interpretation
-A sophisticated machine learning pipeline analyzes complex biological and environmental data, uncovering hidden patterns that indicate plant stress.
+Uses advanced machine learning to analyze biological & environmental data, detecting hidden stress patterns in plants.
 
 Proactive Diagnostics
-Unlike traditional approaches that rely on visible symptoms, Myco-Net provides pre-emptive detection of water stress, nutrient deficiencies, and soil-borne pathogens. 🌾
+Goes beyond visible symptoms by predicting issues such as water stress, nutrient deficiencies, and soil-borne pathogens 🌾.
 
 Two-Tiered Validation
-Our system validates predictions across two phases:
-
-A foundational dataset of general plant health metrics.
-
-A specialized dataset enriched with fungal communication signals.
+✅ Foundational dataset – plant health data
+✅ Specialized dataset – fungal communication metrics
 
 📂 Project Structure
-bash
+graphql
 Copy code
 /
 ├── data/
 │   ├── plant_health_data.csv        # Dataset for foundational analysis
-│   └── Tree_Data.csv                # Dataset for core Myco-Net analysis
+│   └── Tree_Data.csv                # Dataset for Myco-Net analysis
 ├── src/
 │   ├── app.py                       # Streamlit web application
-│   └── myco_net_analysis.ipynb      # Jupyter notebook with analysis & training
+│   └── myco_net_analysis.ipynb      # Jupyter notebook with training & analysis
 ├── models/
 │   ├── myco_net_model.pkl           # Trained Myco-Net model
 │   ├── plant_health_model.pkl       # Trained plant health model
-│   ├── species_encoder.pkl          # Label encoder for plant species
-│   ├── light_encoder.pkl            # Label encoder for light conditions
-│   └── microbe_encoder.pkl          # Label encoder for microbial communities
-└── README.md                        # Project documentation
-⚙️ How to Run the Project
-1. Clone the Repository
+│   ├── species_encoder.pkl          # Encoder for plant species
+│   ├── light_encoder.pkl            # Encoder for light conditions
+│   └── microbe_encoder.pkl          # Encoder for microbial communities
+└── README.md                        # Documentation
+⚙️ Installation
+Clone the Repository
+
 bash
 Copy code
 git clone https://github.com/[Your_Username]/[Your_Repo_Name].git
 cd [Your_Repo_Name]
-2. Run the Analysis Notebook
-Navigate to the src/ directory.
-
-Open myco_net_analysis.ipynb in Jupyter Notebook or JupyterLab.
-
-Run all cells from top to bottom to explore preprocessing, feature engineering, and model training.
-
-3. Launch the Web Application
-Ensure dependencies are installed:
+Create Virtual Environment (Optional but Recommended)
 
 bash
 Copy code
-pip install streamlit pandas scikit-learn matplotlib seaborn
-Run the app:
+python -m venv venv
+source venv/bin/activate   # For Linux/Mac
+venv\Scripts\activate      # For Windows
+Install Dependencies
+
+bash
+Copy code
+pip install -r requirements.txt
+📋 Requirements
+Here’s the typical requirements.txt for this project:
+
+nginx
+Copy code
+streamlit
+pandas
+scikit-learn
+matplotlib
+seaborn
+jupyter
+🚀 Usage
+Run Jupyter Analysis
+Navigate to src/ and open the notebook:
+
+bash
+Copy code
+jupyter notebook myco_net_analysis.ipynb
+Run the Web Application
+From the project root:
 
 bash
 Copy code
 streamlit run src/app.py
-This will open the interactive Myco-Net dashboard in your web browser.
+The app will open in your default web browser where you can interact with the models.
 
 📖 About
-Myco-Net: The AI Fungal Network Interpreter
-Empowering small-scale farmers with AI-powered insights from fungal networks, making agriculture more resilient, proactive, and sustainable. 🌱
+Myco-Net: The AI Fungal Network Interpreter 🌿
+Harnessing fungal communication networks to create resilient, proactive, and sustainable agriculture.
