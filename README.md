@@ -12,7 +12,7 @@ Uses advanced machine learning to analyze biological & environmental data, detec
 Proactive Diagnostics
 Goes beyond visible symptoms by predicting issues such as water stress, nutrient deficiencies, and soil-borne pathogens 🌾.
 
-Two-Tiered Validation
+#Two-Tiered Validation
 ✅ Foundational dataset – plant health data
 ✅ Specialized dataset – fungal communication metrics
 
