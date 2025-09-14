@@ -1,11 +1,11 @@
 #Sustainable_Agriculture_AIML_Project
 
 
-🌿 Myco-Net: The AI Fungal Network Interpreter
+#🌿 Myco-Net: The AI Fungal Network Interpreter
 Myco-Net is a groundbreaking AI solution for sustainable agriculture that shifts crop management from a reactive to a proactive process.
 By decoding subtle signals from the wood wide web—the underground fungal communication network—our system provides real-time diagnostics and early stress warnings, enabling small-scale farmers to take action before damage becomes visible.
 
-✨ Key Innovations
+#✨ Key Innovations
 AI-Driven Signal Interpretation
 Uses advanced machine learning to analyze biological & environmental data, detecting hidden stress patterns in plants.
 
@@ -16,7 +16,7 @@ Two-Tiered Validation
 ✅ Foundational dataset – plant health data
 ✅ Specialized dataset – fungal communication metrics
 
-📂 Project Structure
+#📂 Project Structure
 graphql
 Copy code
 /
@@ -33,7 +33,8 @@ Copy code
 │   ├── light_encoder.pkl            # Encoder for light conditions
 │   └── microbe_encoder.pkl          # Encoder for microbial communities
 └── README.md                        # Documentation
-⚙️ Installation
+
+#⚙️ Installation
 Clone the Repository
 
 bash
@@ -52,7 +53,8 @@ Install Dependencies
 bash
 Copy code
 pip install -r requirements.txt
-📋 Requirements
+
+#📋 Requirements
 Here’s the typical requirements.txt for this project:
 
 nginx
@@ -63,7 +65,8 @@ scikit-learn
 matplotlib
 seaborn
 jupyter
-🚀 Usage
+
+#🚀 Usage
 Run Jupyter Analysis
 Navigate to src/ and open the notebook:
 
@@ -78,6 +81,6 @@ Copy code
 streamlit run src/app.py
 The app will open in your default web browser where you can interact with the models.
 
-📖 About
+#📖 About
 Myco-Net: The AI Fungal Network Interpreter 🌿
 Harnessing fungal communication networks to create resilient, proactive, and sustainable agriculture.
