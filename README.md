@@ -1,4 +1,5 @@
 Sustainable_Agriculture_AIML_Project
+
 🌿 Myco-Net: The AI Fungal Network Interpreter
 Myco-Net is a groundbreaking AI solution designed to transform sustainable agriculture from a reactive to a proactive process. By interpreting subtle signals from the “wood wide web”—the natural communication network of fungi in the soil—our system delivers real-time diagnostics and early warnings of plant stress, enabling farmers to take action before crop damage becomes visible.
 
